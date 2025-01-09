@@ -86,7 +86,6 @@ nav li a{
 }
 .banner-profile-pic{
     width: 580px;
-
 }
 
 .section-title{
@@ -96,9 +95,11 @@ nav li a{
     padding: 10px;
 }
 .section-description{
+    width: 909px;
+    height: 90px;
     font-size: 18px;
     color: #757575;
-    padding: 10px;
+    padding: 5px;
 }
 .about{
     border-radius: 10px;
@@ -106,8 +107,76 @@ nav li a{
     margin-top: 130px;
     text-align: center;
 }
-
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+.text-center{
+    text-align: center;
+}
+.skills-container{
+    margin-top: 80px;
+    padding: 50px 90px;
+    border-radius: 10px;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    margin: 55px 0px;
+    padding: 5px;
+}
+.skill{
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    box-shadow: 2px 3px 8px #c6c0c0;
+    border-radius: 5px;
+}
+.skill-sect{
+    margin-top: 5px;
+    padding: 3px;
+}
+.skill-description{
+    font-size: 16px;
+    color: #757575;
+}
+.Acdemic-Experience{
+    margin-top: 80px;
+    padding: 50px 90px;
+    border-radius: 10px;
+}
+.Ac-Ex{
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    justify-content: space-around;
+    gap: 50px;
+}
+.resume-academic{
+    padding: 10px ;
+}
+.resume-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.academic{
+    border-bottom: 1px rgb(78, 74, 74) solid;
+    margin: 15px 0;
+    padding: 10px 10px 10px 0;
+}
+.academic h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #191717;
+}
+.academic h5{
+    font-size: 15px;
+    font-weight: bold;
+    color: #3f3d3d;
+    padding: 15px 0;
+}
+.academic p{
+    font-size: 12px;
+    color: #757575;
 }
